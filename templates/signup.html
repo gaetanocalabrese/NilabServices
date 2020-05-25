@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+
+  <title>Sign UP</title>
+
+  <!-- CSS dependencies -->
+
+{% load static %}
+
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/wirefrarme.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+        <link rel="stylesheet" href="{% static 'css/skeleton.css' %}">
+        <style>
+            table {
+                font-size: 0.85em;
+            }
+
+            td {
+                max-width: 250px;
+            }
+        </style>
+
+
+</head>
+
+<body class="">
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-info">
+      {% load static %}
+<img src="{% static '/image/logo-en.png' %}" alt="My image">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="fa d-inline fa-lg fa-bullseye"></i></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span> </button>
+
+      <div class="collapse navbar-collapse text-center justify-content-between" id="navbar2SupportedContent">
+
+
+      </div>
+    </div>
+  </nav>
+
+
+  {% block content %}
+<div class="py-5 bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="p-4 col-lg-8">
+          <h4 class="mb-3 text-white" >Sign Up</h4>
+
+
+
+							<form method="post"  id="c_form-h">
+                           {% csrf_token %}
+                          {{ form.as_p }}
+                          <button type="submit" class="btn btn-primary">Sign up</button>
+                          </form>
+
+
+
+        </div>
+        <div class="col-md-4 align-self-center">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+{% endblock %}
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

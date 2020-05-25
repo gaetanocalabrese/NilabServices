@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">
+<style type="text/css">
+.json-key {
+	color: brown;
+}
+
+.json-value {
+	color: navy;
+}
+
+.json-string {
+	color: olive;
+}
+</style>
+  <meta charset="utf-8">
+
+  <title>{% block title %}Django Auth Tutorial{% endblock %}</title>
+
+</head>
+<body>
+ <form action="" method="post">
+  {% csrf_token %}
+   <p> Are yo sure want to delete Document "{{document.title}}"  </p>
+
+  <input type="submit" value="Delete">
+   </form>
+</body>
+
+</html>

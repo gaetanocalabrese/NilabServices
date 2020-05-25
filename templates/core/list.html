@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SDocument List</title>
+  </head>
+  <body>
+ {% for document in documents %}
+    <p>File uploaded at: <a href="media/{{ document.added_by}}">{{ document.added_by}}</a></p>
+<p>File Immgine at: <a href="/media/{{ document.feature_image}}">{{ document.feature_image}}</a></p>
+ <p>File description: <a href="{{ document.description}}">{{ document.description }}</a></p>
+ <a href="{% url 'document_delete' document.id %}">delete</a></p>
+<p>Immagine:<img src="/media/{{ document.feature_image }}" class="image_responsive" height="100px" width="100px"></p>
+
+  {% endfor %}
+  </body>
+</html>

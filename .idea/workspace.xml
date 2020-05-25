@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7142c1f5-20be-417a-beec-a399594dabd3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZtbeJ2mSTFQFVThek6SEmcAX9h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../antonio/ravcov/antonio" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/atlas/tasks/templates" />
+      <recent name="$PROJECT_DIR$/users" />
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/templates/static" />
+      <recent name="$PROJECT_DIR$/templates/core" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
+      <recent name="$PROJECT_DIR$/templates/static/images" />
+      <recent name="$PROJECT_DIR$/staticfiles/image" />
+      <recent name="$PROJECT_DIR$/staticfiles/static" />
+      <recent name="$PROJECT_DIR$/config/static/config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RunServer" type="PythonConfigurationType" factoryName="Python">
+      <module name="NILABServices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/env/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="NILABServices" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/env/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserer" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7142c1f5-20be-417a-beec-a399594dabd3" name="Default Changelist" comment="" />
+      <created>1585661431412</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585661431412</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="584" y="351" width="1161" height="747" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589546209490">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="584" y="351" width="1161" height="747" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1589546209490" />
+    <state x="674" y="484" width="604" height="379" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589379583442">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="674" y="484" width="604" height="379" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1589379583442" />
+    <state x="706" y="435" width="523" height="303" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1585733545244">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="706" y="435" width="523" height="303" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1585733545244" />
+    <state x="800" y="554" width="524" height="554" key="FileChooserDialogImpl" timestamp="1589799282265">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="800" y="554" width="524" height="554" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1589799282265" />
+    <state width="1361" height="407" key="GridCell.Tab.0.bottom" timestamp="1590064565148">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1361" height="407" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1590064565148" />
+    <state width="1361" height="407" key="GridCell.Tab.0.center" timestamp="1590064565146">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1361" height="407" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1590064565146" />
+    <state width="1361" height="407" key="GridCell.Tab.0.left" timestamp="1590064565145">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1361" height="407" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1590064565145" />
+    <state width="1361" height="407" key="GridCell.Tab.0.right" timestamp="1590064565147">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1361" height="407" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1590064565147" />
+    <state width="1361" height="337" key="GridCell.Tab.1.bottom" timestamp="1590064560536">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1361" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1590064560536" />
+    <state width="1361" height="337" key="GridCell.Tab.1.center" timestamp="1590064560534">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1361" height="337" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1590064560534" />
+    <state width="1361" height="337" key="GridCell.Tab.1.left" timestamp="1590064560533">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1361" height="337" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1590064560533" />
+    <state width="1361" height="337" key="GridCell.Tab.1.right" timestamp="1590064560535">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1361" height="337" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1590064560535" />
+    <state x="466" y="309" width="1052" height="740" key="SettingsEditor" timestamp="1589455226226">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="466" y="309" width="1052" height="740" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1589455226226" />
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1590064270494">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1920.1200@0.0.1920.1200" timestamp="1590064270494" />
+    <state x="676" y="745" width="685" height="337" key="com.intellij.ide.util.TipDialog" timestamp="1590398398449">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="676" y="745" width="685" height="337" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1590398398449" />
+    <state x="861" y="460" width="672" height="678" key="search.everywhere.popup" timestamp="1590398643850">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="861" y="460" width="672" height="678" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1590398643850" />
+    <state x="726" y="786" width="660" height="282" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1585821842229">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="726" y="786" width="660" height="282" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1585821842229" />
+  </component>
+</project>

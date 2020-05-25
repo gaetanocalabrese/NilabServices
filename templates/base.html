@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">
+<style type="text/css">
+.json-key {
+	color: brown;
+}
+
+.json-value {
+	color: navy;
+}
+
+.json-string {
+	color: olive;
+}
+</style>
+  <meta charset="utf-8">
+
+  <title>{% block title %}Django Auth Tutorial{% endblock %}</title>
+
+</head>
+<body>
+<div class="row">
+<div class="col-md-10">
+
+
+{% load static %}
+<img src="{% static '/image/logo-en.png' %}" alt="My image">
+
+
+
+  			<span class="pull-left">
+
+  			</span>
+
+</div>
+  		</div>
+  <main>
+    {% block content %}
+    {% endblock %}
+  </main>
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+
+{% load render_table from django_tables2 %}
+{% load static %}
+<!doctype html>
+<html>
+<p><a href="{% url 'home' %}">Return to home</a></p>
+
+        <title>Caricamento File</title>
+        <head>
+        <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+        <link rel="stylesheet" href="{% static 'css/skeleton.css' %}">
+        <style>
+            table {
+                font-size: 0.85em;
+            }
+
+            td {
+                max-width: 500x;
+            }
+        </style>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        </head>
+        <!link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" /--S>
+
+    <body>
+    <h1> Caricamento Immagini</h1>
+   <div class="row>"
+    <div class="twelve columns">
+{% block content %}
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p}}
+    <button type="submit">Upload</button>
+  </form>
+
+<table border="1">
+ {% for document in documents %}
+    <tr>
+    <TD> <a href="media/{{ document.added_by}}">{{ document.added_by}}</a></TD>
+<TD> <a href="/media/{{ document.feature_image}}">{{ document.feature_image}}</a></TD>
+ <td> <a href="{{ document.description}}">{{ document.description }}</a></td>
+
+<td><img src="/media/{{ document.feature_image }}" class="image_responsive" height="100px" width="100px"></td>
+         <td><a href="{% url 'document_delete' document.id %}">delete</a></p></td>
+</tr>
+  {% endfor %}
+
+    </table>
+<p><a href="{% url 'long_tasks' %}">Start Image Analysys</a></p>
+
+
+{% if table %}
+  {% render_table table %}
+
+
+{% endif %}
+
+
+{% endblock %}
+        </div>
+</div>
+    </body>
+
+</html>

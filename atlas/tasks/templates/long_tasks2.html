@@ -1,0 +1,124 @@
+{% extends "base2.html" %}
+
+
+{% block content %}
+{% load static %}
+ <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+ <script src="{% static 'main.js' %}"></script>
+
+
+
+
+
+<h3>Elaborazione Immagini</h3>
+<div class="row">
+    <div class="twelve columns">
+        <form method='POST'>
+            {% csrf_token %}
+            {{ form }}<br />
+            <input type='submit' value='ok' />
+        </form>
+    </div>
+    <div class="twelve columns">
+        Queue name: {{ queue.name }} <br />
+        Jobs length: {{ queue.jobs|length }}
+    </div>
+
+</div>
+<hr />
+
+<input type="button" id="button2" value="Click me" onclick="getLongTaskList()";>
+ <div id="result">
+
+ </div>
+
+
+<div id="jsonresp">
+
+ </div>
+
+
+
+
+{% block javascript %}
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+ function   getLongTaskList () {
+
+
+      $.ajax({
+        type:"GET",
+        url: '/atlas/tasks/getLongTaskList/',
+        data: {
+
+        },
+
+        success: function (data) {
+      $( '#result' ).html(data);
+
+        }
+      });
+
+   }
+  </script>
+
+
+{% endblock %}
+
+
+
+
+ <script>
+
+
+
+
+
+
+function load_task_list(){
+var data =
+`<div class="row">
+    <div class="twelve columns">
+       <h4>Long Tasks1</h4>
+        <table>
+            <thead><tr><th>Name</th><th>Duration</th><th>Result</th><th>Risposta</th><th>Progress</th><th>Date</th></tr></thead>
+            <tbody>
+                {% for task in tasks %}
+                    <tr>
+                        <td>{{ task.name }}</td>
+                        <td>{{ task.duration }}</td>
+                        <td >{{ task.result }}</td>
+                        <td >{{ task.callreply }}</td>
+                        <td >{{ task.progress }}</td>
+                        <td>{{ task.created_on|date:"d/m/Y H:i" }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+</div>
+</div>',
+`;
+return data;
+};
+
+
+  </script>
+
+
+
+
+{% endblock  %}
+
